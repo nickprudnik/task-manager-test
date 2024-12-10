@@ -59,3 +59,7 @@ npm run dev
 ### 7. Open the application
 
 Open your browser and navigate to http://localhost:4321 to see the application running.
+
+###  Explanation and challenges
+
+In creating Svelte components, I took the approach where we have a main component ‘TaskContainer.svelte’ which consists of other components ‘Spinner’, ‘TaskFilter’, ‘TaskList’, ‘CreateTaskModal’. I also tried to implement an OpenAI API integration. To work with OpenAI, you need to rename the .env.example file to .env and add your api key for the global variable OPENAI_API_KEY. I'd also like to talk about the difficulties. The only difficulty was to quickly understand Svelte, how it works and its main features.
