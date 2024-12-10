@@ -16,7 +16,7 @@ Follow these steps to set up and run the project locally:
 ### 1. Clone the repository
 
 ```sh
-git clone https://github.com/your-username/task-manager-test.git
+git clone https://github.com/nickprudnik/task-manager-test.git
 cd task-manager-test
 ```
 
@@ -42,7 +42,13 @@ Generate the Prisma Client to interact with the database:
 npx prisma generate
 ```
 
-### 5. Run the application
+### 5. Run prisma studio in your terminal.
+
+```sh
+npx prisma studio
+```
+
+### 6. Run the application
 
 Start the application using the following command:
 
@@ -50,6 +56,6 @@ Start the application using the following command:
 npm run dev
 ```
 
-### 6. Open the application
+### 7. Open the application
 
 Open your browser and navigate to http://localhost:4321 to see the application running.
