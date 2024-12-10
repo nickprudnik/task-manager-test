@@ -22,3 +22,9 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Ignore the Prisma migrations folder
+prisma/migrations/
+
+# Ignore the SQLite database file
+prisma/dev.db
